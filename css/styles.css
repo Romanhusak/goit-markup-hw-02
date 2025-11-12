@@ -38,8 +38,9 @@ a {
   color: #4d5ae5;
 }
 
+/* logo-span: змінено відповідно до вимоги */
 .logo-span {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .nav-list {
@@ -49,8 +50,8 @@ a {
 
 .nav-link {
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
+  font-size: 16px; /* вимога: 16px */
+  letter-spacing: 0.02em; /* вимога: 0.02em */
   color: #2e2f42;
 }
 
@@ -198,19 +199,22 @@ a {
   padding: 32px 16px;
 }
 
+/* Клас заголовка (повторно використовується для всіх portfolio h3) */
 .portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: 500; /* вимога: 500 */
+  font-size: 20px; /* вимога: 20px */
+  line-height: 1.2; /* вимога: 1.2 */
+  letter-spacing: 0.02em; /* вимога: 0.02em */
+  color: #2e2f42; /* вимога: #2e2f42 */
   margin-bottom: 8px;
 }
 
+/* Клас параграфа (повторно використовується для всіх portfolio p) */
 .portfolio-text {
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-size: 16px; /* вимога: 16px */
+  line-height: 1.5; /* вимога: 1.5 */
+  letter-spacing: 0.02em; /* вимога: 0.02em */
+  color: #434455; /* вимога: #434455 */
 }
 
 /* ==================== Footer ==================== */
